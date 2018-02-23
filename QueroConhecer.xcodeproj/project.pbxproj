@@ -10,8 +10,13 @@
 		5A78A6E11FCC7315005FE3A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78A6E01FCC7315005FE3A6 /* AppDelegate.swift */; };
 		5A78A6E31FCC7315005FE3A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78A6E21FCC7315005FE3A6 /* ViewController.swift */; };
 		5A78A6E61FCC7315005FE3A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A78A6E41FCC7315005FE3A6 /* Main.storyboard */; };
-		5A78A6E81FCC7315005FE3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A78A6E71FCC7315005FE3A6 /* Assets.xcassets */; };
 		5A78A6EB1FCC7315005FE3A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A78A6E91FCC7315005FE3A6 /* LaunchScreen.storyboard */; };
+		5A78A6F51FCC7577005FE3A6 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78A6F41FCC7577005FE3A6 /* PlacesTableViewController.swift */; };
+		5A78A6F71FCC7611005FE3A6 /* PlaceFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78A6F61FCC7611005FE3A6 /* PlaceFinderViewController.swift */; };
+		5A78A6F91FCC8E4E005FE3A6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78A6F81FCC8E4E005FE3A6 /* MapViewController.swift */; };
+		5AE3B3E81FED4EEB00B3F48A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3B3E71FED4EEB00B3F48A /* Place.swift */; };
+		5AECAE5C1FEDB1E30029116D /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AECAE5B1FEDB1E30029116D /* PlaceAnnotation.swift */; };
+		5AECAE5E1FEDB9710029116D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AECAE5D1FEDB9710029116D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +24,14 @@
 		5A78A6E01FCC7315005FE3A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A78A6E21FCC7315005FE3A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A78A6E51FCC7315005FE3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5A78A6E71FCC7315005FE3A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A78A6EA1FCC7315005FE3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A78A6EC1FCC7315005FE3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A78A6F41FCC7577005FE3A6 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		5A78A6F61FCC7611005FE3A6 /* PlaceFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceFinderViewController.swift; sourceTree = "<group>"; };
+		5A78A6F81FCC8E4E005FE3A6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5AE3B3E71FED4EEB00B3F48A /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		5AECAE5B1FEDB1E30029116D /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		5AECAE5D1FEDB9710029116D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				5A78A6E01FCC7315005FE3A6 /* AppDelegate.swift */,
 				5A78A6E21FCC7315005FE3A6 /* ViewController.swift */,
+				5A78A6F41FCC7577005FE3A6 /* PlacesTableViewController.swift */,
+				5AE3B3E71FED4EEB00B3F48A /* Place.swift */,
 				5A78A6E41FCC7315005FE3A6 /* Main.storyboard */,
-				5A78A6E71FCC7315005FE3A6 /* Assets.xcassets */,
+				5AECAE5D1FEDB9710029116D /* Images.xcassets */,
+				5A78A6F61FCC7611005FE3A6 /* PlaceFinderViewController.swift */,
 				5A78A6E91FCC7315005FE3A6 /* LaunchScreen.storyboard */,
 				5A78A6EC1FCC7315005FE3A6 /* Info.plist */,
+				5A78A6F81FCC8E4E005FE3A6 /* MapViewController.swift */,
+				5AECAE5B1FEDB1E30029116D /* PlaceAnnotation.swift */,
 			);
 			path = QueroConhecer;
 			sourceTree = "<group>";
@@ -123,8 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AECAE5E1FEDB9710029116D /* Images.xcassets in Resources */,
 				5A78A6EB1FCC7315005FE3A6 /* LaunchScreen.storyboard in Resources */,
-				5A78A6E81FCC7315005FE3A6 /* Assets.xcassets in Resources */,
 				5A78A6E61FCC7315005FE3A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,11 @@
 			files = (
 				5A78A6E31FCC7315005FE3A6 /* ViewController.swift in Sources */,
 				5A78A6E11FCC7315005FE3A6 /* AppDelegate.swift in Sources */,
+				5A78A6F71FCC7611005FE3A6 /* PlaceFinderViewController.swift in Sources */,
+				5AE3B3E81FED4EEB00B3F48A /* Place.swift in Sources */,
+				5A78A6F91FCC8E4E005FE3A6 /* MapViewController.swift in Sources */,
+				5A78A6F51FCC7577005FE3A6 /* PlacesTableViewController.swift in Sources */,
+				5AECAE5C1FEDB1E30029116D /* PlaceAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
